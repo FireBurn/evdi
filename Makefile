@@ -2,8 +2,8 @@
 # Copyright (c) 2015 - 2020 DisplayLink (UK) Ltd.
 #
 
-FLAGS=-Werror -Wextra -Wall -Wno-error=missing-field-initializers -Werror=sign-compare
-FLAGS_C=$(FLAGS) -Wmissing-prototypes -Wstrict-prototypes -Werror=discarded-qualifiers
+FLAGS=-O2
+FLAGS_C=$(FLAGS)
 FLAGS_CXX=$(FLAGS)
 
 .PHONY: module library pyevdi
